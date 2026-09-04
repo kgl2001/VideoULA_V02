@@ -1,0 +1,171 @@
+(footprint "Oscillator_SMD_Yajingxin_TFOM48M4RHKCNT2T-4Pin_3.2x2.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "80faf32c-62e0-46fb-8a65-a28ff699acd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_Yajingxin_TFOM48M4RHKCNT2T-4Pin_3.2x2.5mm"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "ea80d4e4-fed3-4c94-9e43-03d5770013a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590164980541919232"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af7308a2-bfa3-48eb-874d-b52631149f35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "369a9fb0-399b-4569-a804-e2568b19f729")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Part Number" "C454614"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d54fccd-4a9c-405d-9ffd-495c81aafee5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.16 -1.81)
+		(end -2.16 1.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afc25262-3679-44eb-91db-39b276927611")
+	)
+	(fp_line
+		(start -2.16 1.81)
+		(end 2.16 1.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5072d7ca-a900-4ad0-872e-8230a927ffc5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "f89578ed-7814-4d8e-9608-024226b9d3f2")
+	)
+	(fp_rect
+		(start -2.15 -1.8)
+		(end 2.15 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3900509a-ed38-4017-b4b5-829aa5d40281")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -1.25) (xy -1.6 0.625) (xy -0.975 1.25) (xy 1.6 1.25) (xy 1.6 -1.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9ea98fdf-6b2b-42f9-87cd-c127a60cbbeb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8b6c4faf-96e0-41eb-b101-f3e2db664ca3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "da28a25b-9639-4ff5-8773-fd02fcdc9cdb")
+	)
+	(pad "2" smd roundrect
+		(at 1.05 0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "167c7535-080f-443c-ad97-ae66ee329935")
+	)
+	(pad "3" smd roundrect
+		(at 1.05 -0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "a0195c5c-17fb-4226-bb13-9201334c7351")
+	)
+	(pad "4" smd roundrect
+		(at -1.05 -0.95)
+		(size 1.3 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "de720e14-a689-4c48-9776-226e9b540875")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3DModels/ECS-TXO-3225-250-TR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
